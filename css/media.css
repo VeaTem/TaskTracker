@@ -71,6 +71,7 @@
     .footer__inner {
         flex-wrap: wrap;
         justify-content: center;
+        margin-top: 60px;
     }
     .copyright {
         margin-bottom: 15px;
