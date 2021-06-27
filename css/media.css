@@ -8,6 +8,9 @@
         width: 100%;
         text-align: center;
     }
+    .menu__list-item {
+        margin: 0;
+    }
     .menu__list a {
         display: block;
         padding: 10px 0;
