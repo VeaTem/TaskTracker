@@ -1,0 +1,84 @@
+@media(max-width:1015px) {
+    .menu__list {
+        display: none;
+        position: absolute;
+        margin-top: 20px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .menu__list a {
+        display: block;
+        padding: 10px 0;
+        border-bottom: 1px solid black;
+    }
+    .menu__btn {
+        width: 40px;
+        margin: 0 15px;
+        cursor: pointer;
+    }
+    .menu__btn div {
+        height: 4px;
+        background-color: black;
+        margin-bottom: 10px;
+    }
+    .content__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .info__text {
+        max-width: 520px;
+    }
+    .content__img {
+        margin-top: 35px;
+    }
+}
+
+@media(max-width:540px) {
+    .header__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .menu__list {
+        margin-top: 60px;
+    }
+    .app__link {
+        margin: 0;
+        margin-top: 15px;
+    }
+    .app {
+        margin: 0;
+    }
+    .title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .info__text {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .content__inner {
+        margin-top: 35px;
+    }
+    .menu__link {
+        background-color: white;
+    }
+    .content__img {
+        max-width: 100%;
+    }
+    .footer__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .copyright {
+        margin-bottom: 15px;
+    }
+}
+
+@media(min-width:1015px) {
+    .menu__list {
+        display: flex !important;
+    }
+}
